@@ -2,277 +2,345 @@
   "tests": [
     {
       "name": "Test 1: Comment only",
-      "command": "./Project1 tests/test-01.mc",
+      "setup": "make",
+      "run": "./Project1 tests/test-01.mc",
       "input": "",
       "output": "",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 2: PRINT command with number",
-      "command": "./Project1 tests/test-02.mc",
+      "setup": "make",
+      "run": "./Project1 tests/test-02.mc",
       "input": "",
       "output": "43\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
-      "name": "Test 03:",
-      "command": "./Project tests/test-03.mc",
+      "name": "Test 03: PRINT with comment on same line",
+      "setup": "make",
+      "run": "./Project tests/test-03.mc",
       "input": "",
       "output": "7\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
-      "name": "Test 04:",
-      "command": "./Project tests/test-04.mc",
+      "name": "Test 04: Multiple PRINTs",
+      "setup": "make",
+      "run": "./Project tests/test-04.mc",
       "input": "",
       "output": "1/n2/n3/n4/n5/n6/n7\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 05:",
-      "command": "./Project tests/test-05.mc",
+      "setup": "make",
+      "run": "./Project tests/test-05.mc",
       "input": "",
       "output": "13/n15/n8/n1\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 06:",
-      "command": "./Project tests/test-06.mc",
+      "setup": "make",
+      "run": "./Project tests/test-06.mc",
       "input": "",
       "output": "91\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 07:",
-      "command": "./Project tests/test-07.mc",
+      "setup": "make",
+      "run": "./Project tests/test-07.mc",
       "input": "",
       "output": "1\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 08:",
-      "command": "./Project tests/test-08.mc",
+      "setup": "make",
+      "run": "./Project tests/test-08.mc",
       "input": "",
       "output": "1\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 09:",
-      "command": "./Project tests/test-09.mc",
+      "setup": "make",
+      "run": "./Project tests/test-09.mc",
       "input": "",
       "output": "13/n17\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 10:",
-      "command": "./Project tests/test-10.mc",
+      "setup": "make",
+      "run": "./Project tests/test-10.mc",
       "input": "",
       "output": "1.25\n8.125\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 11:",
-      "command": "./Project tests/test-11.mc",
+      "setup": "make",
+      "run": "./Project tests/test-11.mc",
       "input": "",
       "output": "1317\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 12:",
-      "command": "./Project tests/test-12.mc",
+      "setup": "make",
+      "run": "./Project tests/test-12.mc",
       "input": "",
       "output": "30\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 13:",
-      "command": "./Project tests/test-13.mc",
+      "setup": "make",
+      "run": "./Project tests/test-13.mc",
       "input": "",
       "output": "9\n6\n11.25\n5\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 14:",
-      "command": "./Project tests/test-14.mc",
+      "setup": "make",
+      "run": "./Project tests/test-14.mc",
       "input": "",
       "output": "330\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 15:",
-      "command": "./Project tests/test-15.mc",
+      "setup": "make",
+      "run": "./Project tests/test-15.mc",
       "input": "",
       "output": "Printing\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 16:",
-      "command": "./Project tests/test-16.mc",
+      "setup": "make",
+      "run": "./Project tests/test-16.mc",
       "input": "",
       "output": "This is a literal string\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 17:",
-      "command": "./Project tests/test-17.mc",
+      "setup": "make",
+      "run": "./Project tests/test-17.mc",
       "input": "",
       "output": "a = 10\nb = 22.25\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 18:",
-      "command": "./Project tests/test-18.mc",
+      "setup": "make",
+      "run": "./Project tests/test-18.mc",
       "input": "",
       "output": "ONE 2 3 FOUR\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 19:",
-      "command": "./Project tests/test-19.mc",
+      "setup": "make",
+      "run": "./Project tests/test-19.mc",
       "input": "",
       "output": "x=10 y=11.5 z=19.25 1=1 2=2 3=3\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 20:",
-      "command": "./Project tests/test-20.mc",
+      "setup": "make",
+      "run": "./Project tests/test-20.mc",
       "input": "",
       "output": "3\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 21:",
-      "command": "./Project tests/test-21.mc",
+      "setup": "make",
+      "run": "./Project tests/test-21.mc",
       "input": "",
       "output": "ERROR (line 3): Unknown command 'ADD'\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 22:",
-      "command": "./Project tests/test-22.mc",
+      "setup": "make",
+      "run": "./Project tests/test-22.mc",
       "input": "",
       "output": "ERROR (line 2): Unknown command '='\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 23:",
-      "command": "./Project tests/test-23.mc",
+      "setup": "make",
+      "run": "./Project tests/test-23.mc",
       "input": "",
       "output": "ERROR (line 4): Unknown variable 'three'\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 24:",
-      "command": "./Project tests/test-24.mc",
+      "setup": "make",
+      "run": "./Project tests/test-24.mc",
       "input": "",
       "output": "ERROR (line 3): Unknown variable 'orange'\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 25:",
-      "command": "./Project tests/test-25.mc",
+      "setup": "make",
+      "run": "./Project tests/test-25.mc",
       "input": "",
       "output": "ERROR (line 2): Unexpected token '12'\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 26:",
-      "command": "./Project tests/test-26.mc",
+      "setup": "make",
+      "run": "./Project tests/test-26.mc",
       "input": "",
       "output": "ERROR (line 3): Unexpected token '\"y\"'\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 27:",
-      "command": "./Project tests/test-27.mc",
+      "setup": "make",
+      "run": "./Project tests/test-27.mc",
       "input": "",
       "output": "ERROR (line 3): Unexpected token '2'\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 28:",
-      "command": "./Project tests/test-28.mc",
+      "setup": "make",
+      "run": "./Project tests/test-28.mc",
       "input": "",
       "output": "ERROR (line 2): Division by zero\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Test 29:",
-      "command": "./Project tests/test-29.mc",
+      "setup": "make",
+      "run": "./Project tests/test-29.mc",
       "input": "",
       "output": "ERROR (line 4): Division by zero\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
-    
+
 
     {
       "name": "Extra Credit 101:",
-      "command": "./Project tests/extra-101.mc",
+      "setup": "make",
+      "run": "./Project tests/extra-101.mc",
       "input": "",
       "output": "x = 5\ny = 11\nz = 50\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Extra Credit 102:",
-      "command": "./Project tests/extra-102.mc",
+      "setup": "make",
+      "run": "./Project tests/extra-102.mc",
       "input": "",
       "output": "area = 38.465\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Extra Credit 103:",
-      "command": "./Project tests/extra-103.mc",
+      "setup": "make",
+      "run": "./Project tests/extra-103.mc",
       "input": "",
       "output": "This\noutput\nshould\nbe\non\nseven\nlines!\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Extra Credit 104:",
-      "command": "./Project tests/extra-104.mc",
+      "setup": "make",
+      "run": "./Project tests/extra-104.mc",
       "input": "",
       "output": "A simple print statement might look like \"PRINT 1\".\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     },
     {
       "name": "Extra Credit 105:",
-      "command": "./Project tests/extra-105.mc",
+      "setup": "make",
+      "run": "./Project tests/extra-105.mc",
       "input": "",
       "output": "ERROR (line 2): Non-terminating string literal\n",
       "comparison": "exact",
-      "timeout": 1
+      "timeout": 1,
+      "points": 10
     }
 
   ]
